@@ -7,10 +7,7 @@
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<!-- Preload Inter font -->
-	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&display=swap" as="style" id="preload-inter">
-	<!-- Preload Spectral font -->
-	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" id="preload-spectral">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" defer integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -161,15 +158,5 @@
 		</div>
 	</div>
 </footer>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var preloadInter = document.getElementById('preload-inter');
-    preloadInter.rel = 'stylesheet';
-
-    var preloadSpectral = document.getElementById('preload-spectral');
-    preloadSpectral.rel = 'stylesheet';
-  });
-</script>
 </body>
 </html>
